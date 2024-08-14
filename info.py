@@ -98,17 +98,17 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 # Token Verification Info :
 VERIFY = bool(environ.get('VERIFY', False))
 VERIFY_SECOND_SHORTNER = bool(environ.get('VERIFY_SECOND_SHORTNER', False))
-VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'publicearn.com')
-VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', '919a0facbf9cc53ef079fdbac53b7f165d7ec97a')
+VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'Zipshort.net')
+VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', 'ab11336bfdfdc88282b7eb550ce7f30776694f24')
 # if verify second shortner is True then fill below url and api
-VERIFY_SND_SHORTLINK_URL = environ.get('VERIFY_SND_SHORTLINK_URL', 'publicearn.com')
-VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '919a0facbf9cc53ef079fdbac53b7f165d7ec97a')
+VERIFY_SND_SHORTLINK_URL = environ.get('VERIFY_SND_SHORTLINK_URL', 'Zipshort.net')
+VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', 'ab11336bfdfdc88282b7eb550ce7f30776694f24')
 VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/Aryan_file_bot?start=BQADAQADEgkAAuo0YESihDbsusD0eBYE')
 
 # Shortlink Info
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'publicearn.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', '919a0facbf9cc53ef079fdbac53b7f165d7ec97a')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'Zipshort.net')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'ab11336bfdfdc88282b7eb550ce7f30776694f24')
 
 # Others
 MAX_B_TN = environ.get("MAX_B_TN", "5")
