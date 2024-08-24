@@ -98,17 +98,17 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 # Token Verification Info :
 VERIFY = bool(environ.get('VERIFY', False))
 VERIFY_SECOND_SHORTNER = bool(environ.get('VERIFY_SECOND_SHORTNER', False))
-VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'Zipshort.net')
-VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', 'ab11336bfdfdc88282b7eb550ce7f30776694f24')
+VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'https://shrinkforearn.in')
+VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', '37940fb7deda9253de6ca0cf3fe2773ffd643595')
 # if verify second shortner is True then fill below url and api
-VERIFY_SND_SHORTLINK_URL = environ.get('VERIFY_SND_SHORTLINK_URL', 'Zipshort.net')
-VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', 'ab11336bfdfdc88282b7eb550ce7f30776694f24')
+VERIFY_SND_SHORTLINK_URL = environ.get('VERIFY_SND_SHORTLINK_URL', 'https://shrinkforearn.in')
+VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '37940fb7deda9253de6ca0cf3fe2773ffd643595')
 VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/Freemovies001bot?start=ZmlsZV9CQUFEQlFBRDl3OEFBalhrR0ZiZVFoSEd1Q2VsM3hZRQ')
 
 # Shortlink Info
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'Zipshort.net')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'ab11336bfdfdc88282b7eb550ce7f30776694f24')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'https://shrinkforearn.in')
+SHORTLINK_API = environ.get('SHORTLINK_API', '37940fb7deda9253de6ca0cf3fe2773ffd643595')
 
 # Others
 MAX_B_TN = environ.get("MAX_B_TN", "5")
