@@ -17,10 +17,10 @@ def is_enabled(value, default):
         return default
 
 # Bot information
-SESSION = environ.get('SESSION', 'G0D_0f_DEATH')
+SESSION = environ.get('SESSION', '')
 API_ID = int(environ.get('API_ID', '28244492'))
 API_HASH = environ.get('API_HASH', '38e4ce53faea889073f6f49e83cbc392')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7279822237:AAGs37iCDOe52rQ3wUw8IafvEJgiD7kUs4k")
+BOT_TOKEN = environ.get('BOT_TOKEN', "8194960420:AAFfduOhMkExEaFHB1iv_P4vzDh0LH-hca8")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
@@ -51,9 +51,9 @@ FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://movies:moviesclub@movies.xgar5.mongodb.net/?retryWrites=true&w=majority&appName=Movies")
-DATABASE_NAME = environ.get('DATABASE_NAME', "techvjautobot")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'techvjcollection')
+DATABASE_URI = environ.get('DATABASE_URI', mongodb+srv://trailerstudios272:Lcx7ev6clNznQiBT@cluster0.lczkmni.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"")
+DATABASE_NAME = environ.get('DATABASE_NAME', "WinterisComming")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'JohnSnow')
 
 # Premium And Referal Settings
 PREMIUM_AND_REFERAL_MODE = bool(environ.get('PREMIUM_AND_REFERAL_MODE', True)) # Set Ture Or False
@@ -71,10 +71,10 @@ CLONE_DATABASE_URI = environ.get('CLONE_DATABASE_URI', "") # Necessary If clone 
 PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Username Without @ or without https://t.me/ and Bot Is Admin With Full Right.
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/movie_request_group_hd_movie')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/AD_FILMS_STORE')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/movie_request_group_hd_free')
+CHNL_LNK = environ.get('CHNL_LNK', '')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Freemovies001bot?start=ZmlsZV9CQUFEQlFBRDl3OEFBalhrR0ZiZVFoSEd1Q2VsM3hZRQ')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+dHX-yoLufAwyY2M1') # Support Chat Link Without https:// or @
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '') # Support Chat Link Without https:// or @
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
@@ -143,7 +143,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("URL", "https://testofvjfilter-1fa60b1b8498.herokuapp.com/")
+URL = environ.get("URL"")
 
 
 # Rename Info : If True Then Bot Rename File Else Not
@@ -163,6 +163,6 @@ LOG_STR += (f"MAX_LIST_ELM Found, long list will be shortened to first {MAX_LIST
 LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
 
 
-# Don't Remove Credit @VJ_Botz
+# Don't Remove Credit @movie_piracy_bot
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
 # Ask Doubt on telegram @KingVJ01
